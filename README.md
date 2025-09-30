@@ -7,6 +7,10 @@ Features:
 * A Blender add-on to export meshes with baked vertex attributes (color, emission, metallic, roughness) into .glb.
 * A Godot importer to load the model and assign shader materials.
 
+Limitations:
+
+* The exporter reuses the vertex color channel for emission, so it’s not a 1:1 match with Blender’s Principled BSDF emission settings.
+
 ## Blender exporter
 
 ![](images/blender.png)
@@ -60,4 +64,5 @@ Both support:
 
 
 If there are additional variations you would find useful, or if you find any bugs or have other feedback, please [open an issue](https://github.com/Donitzo/godot-blender-vertex-baker/issues).
+
 
