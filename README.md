@@ -54,9 +54,10 @@ Both support:
 5. Export models via **File -> Export -> gLTF (Baked Vertex Color)**.
 6. **OPTIONAL**: You may want to save the model before export and then revert it. The exporter internally creates temporary copies of your objects to bake data. These copies are deleted after export, so the original scene remains unchanged. However, reverting after ensures no extra data sticks around.
 7. Copy shaders and the `model_importer.gd` from `godot_src/` into your Godot project.
-8. Assign the `model_importer.gd` to the `Import Script` path of the exported `.glb` files and click `Reimport`.
+8. Assign the `model_importer.gd` to the **Import Script** path of the exported `.glb` files and click **Reimport**.
 
 ## Feedback & Bug Reports
 
 
 If there are additional variations you would find useful, or if you find any bugs or have other feedback, please [open an issue](https://github.com/Donitzo/godot-blender-vertex-baker/issues).
+
