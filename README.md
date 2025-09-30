@@ -1,6 +1,6 @@
 # Godot Blender Vertex Baker
 
-This project provides a way to import material-less colored meshes from Blender into Godot as merged meshes. This can significantly reduce draw calls for purely color-based geometry.
+This project provides a way to bake material-less colored meshes from Blender into Godot. This can significantly reduce draw calls for purely color-based geometry.
 
 Features:
 
@@ -64,5 +64,6 @@ Both support:
 
 
 If there are additional variations you would find useful, or if you find any bugs or have other feedback, please [open an issue](https://github.com/Donitzo/godot-blender-vertex-baker/issues).
+
 
 
