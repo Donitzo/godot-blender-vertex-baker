@@ -40,6 +40,7 @@ Features:
   Uses textures + vertex color tinting.
 * **`vertex_standard.gdshader`**
   Uses only vertex colors and baked data for lightweight rendering.
+  
 Both support:
 * Dithered alpha clipping (via Bayer matrix).
 * Emission, metallic, and roughness baked directly into mesh data.
@@ -56,5 +57,6 @@ Both support:
 8. Assign the `model_importer.gd` to the `Import Script` path of the exported `.glb` files and click `Reimport`.
 
 ## Feedback & Bug Reports
+
 
 If there are additional variations you would find useful, or if you find any bugs or have other feedback, please [open an issue](https://github.com/Donitzo/godot-blender-vertex-baker/issues).
